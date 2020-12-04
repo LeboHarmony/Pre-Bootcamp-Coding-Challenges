@@ -7,4 +7,4 @@ def time_convert(x):
 
   print(time)
 
-time_convert(45)
+time_convert(133)
