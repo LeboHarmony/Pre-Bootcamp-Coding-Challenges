@@ -6,8 +6,8 @@ def check_max(x, y, z):
   else:
     print(z)
   
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
+#a = int(input("Enter first number: "))
+#b = int(input("Enter second number: "))
+#c = int(input("Enter third number: "))
 
-check_max(a, b, c)
+check_max(1, 2, 3)
