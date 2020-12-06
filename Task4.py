@@ -1,10 +1,10 @@
 def check_three(x, y):
   if((x == 3 or y == 3) and (x + y == 3)):
-    print("True")
+    return True
   else :
-    print("False")
+    return False
 
 n = int(input("Enter a number: "))
 m = int(input("Enter a number: "))
 
-check_three(n, m)
+print(check_three(n, m))
