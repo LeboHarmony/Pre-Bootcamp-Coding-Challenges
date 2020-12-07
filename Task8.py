@@ -6,16 +6,15 @@ def time_convert(x):
   
   if (hour >  1):
     time_h = str(hour) + " hours"
-  elif(hour <=  1):
+  else:
     time_h = str(hour) + " hour"
 
   if(minutes > 1):
     time_m = str(minutes) + " minutes"
-  elif(minutes <= 1):
+  else:
     time_m = str(minutes) + " minute"
 
-  time = str(x) + " will be \"" + str(time_h) + ", " + str(time_m) + "\"." 
-
+  time = f"{x} will be \"{time_h}, {time_m}\"."
   print(time)
 
 time_convert(71)
