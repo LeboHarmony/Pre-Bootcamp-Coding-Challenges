@@ -3,7 +3,7 @@ def check_three(x, y):
   sum = x + y 
 
   for i in str(sum):
-    if int(i) == 3:
+    if str(3) in str(sum):
       z = True
     else:
       z = False
